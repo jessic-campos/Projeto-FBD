@@ -1,0 +1,3 @@
+# abrir o projeto_fbd
+psql -U jessica -d projeto_fbd
+
