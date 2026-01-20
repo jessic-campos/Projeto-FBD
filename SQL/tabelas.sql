@@ -9,7 +9,7 @@ CREATE TABLE "instituicao"
   "numero" INT NOT NULL,
   "rua" VARCHAR(70) NOT NULL,
   "estado" VARCHAR(2) NOT NULL,
-  "cep" TYPER VARCHAR NOT NULL
+  "cep" VARCHAR(8) NOT NULL
 );
 
 CREATE TABLE "empresa"
