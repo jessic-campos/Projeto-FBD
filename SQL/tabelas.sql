@@ -8,8 +8,8 @@ CREATE TABLE "instituicao"
   "bairro" VARCHAR(20) NOT NULL,
   "numero" INT NOT NULL,
   "rua" VARCHAR(70) NOT NULL,
-  "estado" VARCHAR(50) NOT NULL,
-  "cep" INT NOT NULL
+  "estado" VARCHAR(2) NOT NULL,
+  "cep" TYPER VARCHAR NOT NULL
 );
 
 CREATE TABLE "empresa"
