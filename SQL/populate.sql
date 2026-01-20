@@ -1,15 +1,15 @@
 -- Inserindo Instituições
 INSERT INTO instituicao (id_instituicao, nome_oficial, email, cnpj, cidade, bairro, numero, rua, estado, cep) VALUES
-(1, 'Instituto Tecnológico Alfa', 'contato@alfa.com', '12345678000111', 'Fortaleza', 'Centro', 100, 'Rua A', 'Ceara', 60000000),
-(2, 'Centro de Pesquisa Beta', 'beta@pesquisa.com', '22345678000122', 'Recife', 'Boa Vista', 200, 'Rua B', 'Pernambuco', 50000000),
-(3, 'Instituto Delta', 'delta@mail.com', '32345678000133', 'Natal', 'Petropolis', 300, 'Rua C', 'Rio Grande do Norte', 59000000),
-(4, 'Laboratorio Gama', 'gama@lab.com', '42345678000144', 'Salvador', 'Barra', 400, 'Rua D', 'Bahia', 40000000),
-(5, 'Instituto Sigma', 'sigma@inst.com', '52345678000155', 'Sao Paulo', 'Centro', 500, 'Rua E', 'Sao Paulo', 10000000),
-(6, 'Tech Institute Zeta', 'zeta@tech.com', '62345678000166', 'Campinas', 'Taquaral', 600, 'Rua F', 'Sao Paulo', 13000000),
-(7, 'Instituicao Omega', 'omega@org.com', '72345678000177', 'Fortaleza', 'Aldeota', 700, 'Rua G', 'Ceara', 60100000),
-(8, 'Instituto Epsilon', 'epsilon@inst.com', '82345678000188', 'Rio de Janeiro', 'Copacabana', 800, 'Rua H', 'Rio de Janeiro', 22000000),
-(9, 'Instituto Kappa', 'kappa@mail.com', '92345678000199', 'Curitiba', 'Centro', 900, 'Rua I', 'Parana', 80000000),
-(10, 'Instituto Lambda', 'lambda@inst.com', '10345678000100', 'Manaus', 'Distrito Industrial', 50, 'Rua J', 'Amazonas', 69000000);
+(1, 'Instituto Tecnológico Alfa', 'contato@alfa.com', '12345678000111', 'Fortaleza', 'Centro', 100, 'Rua A', 'CE', 60000000),
+(2, 'Centro de Pesquisa Beta', 'beta@pesquisa.com', '22345678000122', 'Recife', 'Boa Vista', 200, 'Rua B', 'PE', 50000000),
+(3, 'Instituto Delta', 'delta@mail.com', '32345678000133', 'Natal', 'Petropolis', 300, 'Rua C', 'RN', 59000000),
+(4, 'Laboratorio Gama', 'gama@lab.com', '42345678000144', 'Salvador', 'Barra', 400, 'Rua D', 'BA', 40000000),
+(5, 'Instituto Sigma', 'sigma@inst.com', '52345678000155', 'Sao Paulo', 'Centro', 500, 'Rua E', 'SP', 10000000),
+(6, 'Tech Institute Zeta', 'zeta@tech.com', '62345678000166', 'Campinas', 'Taquaral', 600, 'Rua F', 'SP', 13000000),
+(7, 'Instituicao Omega', 'omega@org.com', '72345678000177', 'Fortaleza', 'Aldeota', 700, 'Rua G', 'CE', 60100000),
+(8, 'Instituto Epsilon', 'epsilon@inst.com', '82345678000188', 'Rio de Janeiro', 'Copacabana', 800, 'Rua H', 'RJ', 22000000),
+(9, 'Instituto Kappa', 'kappa@mail.com', '92345678000199', 'Curitiba', 'Centro', 900, 'Rua I', 'PR', 80000000),
+(10, 'Instituto Lambda', 'lambda@inst.com', '10345678000100', 'Manaus', 'Distrito Industrial', 50, 'Rua J', 'AM', 69000000);
 
 -- Inserindo Empresas
 INSERT INTO empresa (setor_atividade, id_instituicao) VALUES
