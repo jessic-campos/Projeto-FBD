@@ -128,19 +128,6 @@ INSERT INTO instituicao_patente (id_patente, id_instituicao) VALUES
 (9, 9),
 (10, 10);
 
--- Inserindo Documentos
-INSERT INTO documentos (id_documentos, documentos, id_patente) VALUES
-(1, 'relatorio_tecnico_101.pdf', 1),
-(2, 'especificacao_102.pdf', 2),
-(3, 'desenhos_tecnicos_103.pdf', 3),
-(4, 'analise_viabilidade_104.pdf', 4),
-(5, 'testes_laboratorio_105.pdf', 5),
-(6, 'caracterizacao_material_106.pdf', 6),
-(7, 'simulacoes_computacionais_107.pdf', 7),
-(8, 'ensaios_campo_108.pdf', 8),
-(9, 'prototipo_109.pdf', 9),
-(10, 'validacao_clinica_110.pdf', 10);
-
 -- Inserindo Classificações
 INSERT INTO classificacao (id_classificacao, nome, descricao) VALUES
 (1, 'Dispositivos Eletronicos', 'Equipamentos e sistemas eletronicos para diversas aplicacoes tecnologicas'),

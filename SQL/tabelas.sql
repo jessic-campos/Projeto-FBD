@@ -63,12 +63,6 @@ CREATE TABLE "patente_classificacao"
   UNIQUE (id_patente, id_classificacao)
 );
 
-CREATE TABLE "documentos"
-(
-  "id_documentos" SERIAL PRIMARY KEY,
-  "documentos" VARCHAR(200) NOT NULL,
-  "id_patente" INTEGER REFERENCES patente(id_patente)
-);
 
 CREATE TABLE "inventor" (
 	"id_inventor" SERIAL PRIMARY KEY,
